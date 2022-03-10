@@ -1,0 +1,101 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Weding-W</title>
+        
+        <link rel="stylesheet" href="./scss/scss.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Dongle:wght@700&family=IBM+Plex+Sans+Thai+Looped:wght@700&family=PT+Sans:wght@400;700&family=Rubik:wght@300;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="menubar-main-div">
+            <div class="logo-n">
+                <img src="https://res.cloudinary.com/dff4rbfkn/image/upload/c_scale,w_100/v1646887829/WhatsApp_Image_2022-03-10_at_9.59.40_AM_b3r1rq.jpg">
+             
+            </div>
+            <button class="bar expand-mobile-menu">
+                <svg >
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-b"></use>
+                </svg>
+            </button>
+            <div class="main-menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">HOME</a>
+                        </li>
+                        <li>
+                            <a href="">CONTACT</a>
+                        </li>
+                        <li>
+                            <a href="">ITEM</a>
+                        </li>
+                        <li>
+                            <a href="">ABOUT</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="srchcontact">
+                    <ul>
+                        <li class="item second srch">
+                            <a href="" class="nav-a"><i class="fas fa-search"></i></a>
+                        </li>
+                        <li class="item second login-header">
+                            <a class="menu-button-main second nav-a c-log" href="#">Login</a>
+           
+                        </li>
+                        <li class="item second cart-header">
+                            <a class="menu-button-main second nav-a cart-c" href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section-one">
+            <img src="https://dummyimage.com/1515x800/000/fff">
+            <div class="mouse_scroll">
+
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div>
+                    <span class="m_scroll_arrows unu"></span>
+                    <span class="m_scroll_arrows doi"></span>
+                    <span class="m_scroll_arrows trei"></span>
+                </div>
+        </div>
+        </div>
+
+
+         <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+            <symbol id="menu-b" viewBox="0 0 512 512">
+                <path
+                    d="m435.192 406.18h-406.179c-16.024 0-29.013-12.99-29.013-29.013s12.989-29.013 29.013-29.013h406.18c16.023 0 29.013 12.99 29.013 29.013-.001 16.023-12.99 29.013-29.014 29.013z"
+                    fill="#000000" data-original="#000000" class=""></path>
+                <path
+                    d="m435.192 261.115h-406.179c-16.024 0-29.013-12.989-29.013-29.012s12.989-29.013 29.013-29.013h406.18c16.023 0 29.013 12.989 29.013 29.013s-12.99 29.012-29.014 29.012z"
+                    fill="#000000" data-original="#000000" class=""></path>
+                <path
+                    d="m435.192 116.051h-406.179c-16.024 0-29.013-12.989-29.013-29.013s12.989-29.013 29.013-29.013h406.18c16.023 0 29.013 12.989 29.013 29.013s-12.99 29.013-29.014 29.013z"
+                    fill="#000000" data-original="#000000" class=""></path>
+            </symbol>
+        </svg>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $(".expand-mobile-menu").on("click", function() {
+                    console.log( );
+                    $(this).parent().find('.main-menu').toggleClass('active');
+                });
+            });
+
+        </script>
+    </body>
+</html>
